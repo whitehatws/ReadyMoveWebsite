@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+  
+  html,
+  body {
+      height: 100%;
+      width: 100%;
+      font-family: 'Staatliches', cursive;;
+      text-align: center;
+  }
+
+  p {
+      color: #8f8f8f;
+      font-weight: lighter;
+  }
+
+  .padding {
+      padding-bottom: 2rem;
+  }
+
+  .ruleBreak {
+      background-color: #ffbd4a;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding-bottom: 2px;
+      margin-bottom: 60px;
+      width: 40%;
+  }
+
+  /* Navigation Bar*/
+
+  .headerCallToAction button {
+      background-color: #ffbd4a;
+      border-radius: 5px;
+      border: 2px solid white;
+      font-size: 1.2rem;
+      text-align: center;
+      transition-duration: 0.4s;
+  }
+
+  .headerCallToAction button:hover {
+      background-color: white;
+      border: 2px solid #ffbd4a;
+  }
+
+  .navbar {
+      background-color: #292929;
+      position: relative;
+  }
+
+  .nav-item {
+      padding: 0 50px;
+  }
+
+  .nav-link {
+      font-size: 1.4em;
+      color: #ffbd4a;
+  }
+
+  .nav-link:hover {
+      color: white;
+  }
+
+  .navbarLogo {
+      padding-left: 20px;
+  }
+
+
+  /* Title Section */
+
+  .carousel-indicators {
+      visibility: hidden;
+  }
+
+  .carousel-inner img {
+      height: 100%;
+      width: 100%;
+  }
+
+  .carousel-caption {
+      position: absolute;
+      top: 70%;
+      transform: translateY(-50%);
+  }
+
+  .readyMoveColor {
+      color: #ffbd4a;
+      border: 1px black;
+      font-weight: 600;
+      text-shadow: 6px 4px 5px #000;
+  }
+
+
+    /* Jumbotron Section */
+
+    .jumbotron {
+        background-color: #292929;
+        padding: 30px 0;
+    }
+  
+    .getQuote {
+        color: #ffbd4a;
+        font-size: 2.5em;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+
+
+  /* Services Section */
+
+  #services {
+      background-color: white;
+      position: relative;
+      z-index: 1;
+  }
+
+  .servicesBox {
+      padding: 5%;
+  }
+
+  .servicesIcon {
+      color: #ffbd4a;
+      margin-bottom: 2.5rem;
+  }
+
+  .servicesTitle {
+      font-size: 2rem;
+  }
+
+
+  /* Special Services Section */
+
+  .specialServicesImage {
+      width: 30rem;
+  }
+
+  .packingServicesDescription  p{
+      font-weight: 600;
+  }
+
+  .specialServicesItems {
+      padding: 4rem 0;
+  }
+
+  .specialServicesItems h2 {
+    font-weight: 600;
+    padding-top: 5rem;
+  }
+
+  .specialServicesTitle h2 {
+      color: #ffbd4a;
+      text-decoration: underline;
+      font-size: 3em;
+      font-weight: 800;
+  }
+
+   /* Truck Get A Quote Section */
+
+  .truckBackground {
+      background-image: url("../Images/movingtruck.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      border: 6px solid #ffbd4a;
+      height: 30em;
+      width: auto;
+  }
+
+  .truckImageText {
+      color: #ffbd4a;
+      font-size: 4rem;
+      padding-top: 5%;
+  }
+
+  .truckCallToAction button {
+    background-color: #ffbd4a;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 2rem;
+    margin-top: 4%;
+    outline: 2px solid black;
+    text-align: center;
+    transition-duration: 0.4s;
+  }
+
+  .truckCallToAction button:hover {
+    background-color: white;
+    border: 2px solid #ffbd4a;
+}
+
+/* Truck Get A Quote Section */
+
+footer {
+    background-color: #292929;
+    padding-top: 40px;
+}
+
+footer, h1 {
+    color: #ffbd4a;
+}
+
+.hrFooter {
+      background-color: #ffbd4a;
+      border-radius: 10px;
+      width: 40%;
+}
+
+.whws{
+    color: white;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+    .carousel-caption {
+        position: absolute;
+        top: 70%;
+        transform: translateY(-140%);
+    }
+
+    .readyMoveColor {
+        color: #ffbd4a;
+        border: 1px black;
+        font-size: 3rem;
+        font-weight: 600;
+        text-shadow: 6px 4px 5px #000;
+    }
+
+    }
+
+  
+  @media (max-width: 768px) {
+    
+    .carousel-caption {
+        position: absolute;
+        top: 70%;
+        transform: translateY(-140%);
+    }
+
+    .readyMoveColor {
+        color: #ffbd4a;
+        border: 1px black;
+        font-size: 2rem;
+        font-weight: 600;
+        text-shadow: 6px 4px 5px #000;
+    }
+
+    }
+
+  
+  @media (max-width: 576px) {
+      
+    .carousel-caption {
+        padding-bottom: 80px;
+        position: absolute;
+    }
+
+    .readyMoveColor {
+        color: #ffbd4a;
+        border: 1px black;
+        font-size: 2rem;
+        font-weight: 600;
+        text-shadow: 6px 4px 5px #000;
+    }
+
+    .getQuote {
+        color: #ffbd4a;
+        font-size: 2em;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    .specialServicesImage {
+        width: 20rem;
+    }
+
+    .truckImageText {
+        padding-top: 30%;
+    }
+
+    }
+
+    @media (max-width: 1229px) {
+        .nav-item {
+            padding: 0 30px;
+        }
+    }
+
+    @media (max-width: 1029px) {
+        .nav-item {
+            padding: 0 20px;
+        }
+    }
